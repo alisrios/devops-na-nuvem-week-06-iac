@@ -18,7 +18,7 @@ variable "aws_provider" {
   default = {
     region = "us-east-1"
     assume_role = {
-      role_arn = "arn:aws:iam::654654554686:role/DevOpsNaNuvemWeekRole-06"
+      role_arn = "arn:aws:iam::148761658767:role/TerraformAssumeRole"
     }
   }
 }

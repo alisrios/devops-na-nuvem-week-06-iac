@@ -1,4 +1,4 @@
-resource "aws_acm_certificate" "this" {
-  domain_name       = "devopsnanuvemweek.com"
-  validation_method = "DNS"
+data "aws_acm_certificate" "this" {
+  domain   = "*.alisriosti.com.br"
+  statuses = ["ISSUED"]
 }
